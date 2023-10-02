@@ -7,4 +7,8 @@ class Test_FizzBuzz (unittest.TestCase):
 
     def test_affiche_sans_parm(self):
         self.assertEqual(self.instance.affiche(), "12Fizz4Buzz")
-    
+
+
+
+if __name__=='__main__':
+    unittest.main()
